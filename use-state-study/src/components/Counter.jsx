@@ -7,7 +7,7 @@ const Counter = () => {
       <p>{count}</p>
       <div className="flex gap-12">
         <button
-          className="py-4 px-8 rounded-xl be-red-300"
+          className="py-4 px-8 rounded-xl be-red-100"
           onClick={() => setCount(count + 1)}
         >
           Increase
