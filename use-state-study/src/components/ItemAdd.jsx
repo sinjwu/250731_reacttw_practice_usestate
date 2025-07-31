@@ -8,7 +8,9 @@ const ItemAdd = () => {
   };
   return (
     <div className="flex flex-col justify-center items-center gap-12">
-      <button onClick={addItem}>아이템 추가</button>
+      <button className="py-2 px-4 rounded-lg bg-red-300" onClick={addItem}>
+        아이템 추가
+      </button>
       <ul className="mt-8 flex flex-col gap-4">
         {items.map((item, index) => (
           <li key={index}>{item}</li>
